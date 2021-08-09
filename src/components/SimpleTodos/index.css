@@ -1,0 +1,45 @@
+.todo-app-bg-container {
+  background-color: #ffc2a0;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.todo-container {
+  background-color: #ffffff;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.todo-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  min-width: 100%;
+}
+
+.heading {
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-size: 34px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .todo-container {
+    width: 70%;
+  }
+}
